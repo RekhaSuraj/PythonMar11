@@ -18,6 +18,7 @@ def profile(*args):
 		print(i)
 
 
+print("hello1")
 
 profile(1,2,3,5,'hi','hello',50)
 # (1, 2, 3, 5, 'hi', 'hello')
