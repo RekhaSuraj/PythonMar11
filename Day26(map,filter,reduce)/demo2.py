@@ -10,8 +10,9 @@
 # filter(function, iterable(s))
 list1 = [0,1,4,3,5,7,8,10,2,12]
 def even_fun(n):
-    if n%2 == 0:
-        return n
+    # if n%2 == 0:
+    #     return n
+    return n%2 == 0
 
 print(list(filter(even_fun,list1)))
 # [4, 8, 10, 2, 12]
