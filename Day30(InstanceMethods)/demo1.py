@@ -3,6 +3,10 @@
 # Instance method: Used to access or modify the object state. If we use instance variables inside a method,
 # such methods are called instance methods. It must have a self parameter to refer to the current object.
 
+# self: The first argument self refers to the current object.
+# It binds the instance to the __init__() method.
+# It’s usually named self to follow the naming convention.
+
 class Mobile:
 
     def __init__(self,Name, RAM, Color, Price,Mfg):
