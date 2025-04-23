@@ -41,6 +41,8 @@ obj_Person = Person("Surendra",25, 500000)
 # 500000
 
 
+obj_Person1 = Person("Swaroop",20,400000)
+print(obj_Person1.P_Age)
 
 
 

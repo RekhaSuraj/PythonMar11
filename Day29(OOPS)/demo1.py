@@ -1,7 +1,6 @@
 # OOPS Concepts - Object Oriented Programming Structure
 # class -
 
-OOPS
 # OOPS --> Object orirented programming System
 
 # Class, object[Methods and Attributes]
