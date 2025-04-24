@@ -12,7 +12,7 @@
 # To give meaningful names to ways of creating an object
 
 from datetime import date
-class ArithmeticTool:
+class Student:
 
     def __init__(self, Name, Age):
         self.name = Name
@@ -28,14 +28,16 @@ class ArithmeticTool:
     def display_age(self):
         return f'{self.name} age is {self.age}'
 
-# ob1 = ArithmeticTool("Rama",200)
+# ob1 = Student("Rama",200)
 
 # Alternative constructor @classmethod(Calculate_age)
-var = ArithmeticTool.Calculate_Age("Seetha",1990)
+var = Student.Calculate_Age("Seetha",1990)
 print(var.name)
 print(var.age)
 var.display_age()
-
+# 2025
+# Seetha
+# 35
 
 
 
