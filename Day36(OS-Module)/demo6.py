@@ -2,6 +2,8 @@
 # read() : Returns the entire file content and it accepts the optional size parameter
 # that mentions the bytes to read from the file.
 # read file using the with
+# Advantage of with keyword ,  there is no need to file close
+# using the with file will be close(without manually)
 
 
 with open('demo.txt','r') as file:
