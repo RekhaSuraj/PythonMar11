@@ -50,4 +50,5 @@ print()
 
 print(nd1[0::2,1::,0:2])
 
+
 # hw - -ve slicing - same outputs as above
